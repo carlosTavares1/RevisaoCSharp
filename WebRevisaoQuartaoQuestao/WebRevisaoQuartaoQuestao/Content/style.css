@@ -1,0 +1,8 @@
+﻿body {
+    height: 100vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQw9XistP79Gh10pXIALjivKUxf9Nroox9G1TbovUZmj2TSRof2");
+    background-size: cover;
+}
+.card {
+    background-color: black;
+}

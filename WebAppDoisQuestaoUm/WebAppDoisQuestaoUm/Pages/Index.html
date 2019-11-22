@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Css/style.css" rel="stylesheet" />
+    <title>Tela de Boas-vindas</title>
+</head>
+<body>
+    <div class="container-fluid h-100">
+        <div class="row d-flex justify-content-center align-content-center h-100">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <input type="text" name="nome" placeholder="Informe seu nome" class="form-control form-group" />
+                        </div>
+                        <div class="row">
+                            <input type="button" name="botao" value="Enviar" class="btn btn-success w-100" data-toggle="modal" data-target="#exampleModal"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Bem-Vindo à Ambev</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Seja bem-vindo <span name="nomeModal"></span> à nossa cervejaria!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Salvar alteração</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../Scripts/jquery-3.0.0.js"></script>
+    <script src="../Scripts/popper.js"></script>
+    <script src="../Scripts/bootstrap.js"></script>
+    <script src="../Js/script.js"></script>
+</body>
+</html>
